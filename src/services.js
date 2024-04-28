@@ -1,0 +1,1 @@
+export const musicApiUrl = (id) => `https://v1.nocodeapi.com/deepali0411/spotify/DEtATFwfWUzOWHuT/search?q=${id}&type=track`

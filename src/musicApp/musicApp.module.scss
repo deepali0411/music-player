@@ -1,0 +1,49 @@
+.musicContainer {
+    box-sizing: border-box;
+    padding: 1.6rem;
+    .header {
+        box-sizing: border-box;
+        display: flex;
+        padding: 1.6rem 0.8rem;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        .title {
+            color: rgb(115, 192, 251);
+            font-weight: 700;
+            font-size: 3.2rem;
+        }
+        .inputBox {
+            width: 80%;
+            padding: 0 1.6rem;
+            .input {
+               width: 100%; 
+               height: 2.4rem;
+               border-radius: 1.2rem;
+               border: 0.1rem solid #bebebe;
+               padding: 0.4rem;
+            }
+        }
+        .searchButton {
+            height: 3.6rem;
+            background-color: rgb(115, 192, 251);
+            border: 0.1rem solid rgb(115, 192, 251);
+            border-radius: 1.2rem;
+            width: 8rem;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+.container {
+    display: grid;
+    box-sizing: border-box;
+    padding: 1.6rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+    .card{
+        display: flex;
+        justify-content: center;
+    }
+}
+}

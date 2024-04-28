@@ -1,0 +1,23 @@
+.cardContainer {
+    box-sizing: border-box;
+    border: 0.1rem solid #d9d9d9;
+    width: 25.2rem;
+    border-radius: 0.8rem;
+    .bottomStyle{
+        padding: 1.6rem;
+        text-align: left;
+        .title{
+            font-weight: 600;
+            font-size: 1.4rem;
+        }
+        .singer {
+            font-size: 1.2rem;
+            color: #838383;
+            margin: 0.4rem 0 0.8rem;
+        }
+        .audio {
+            width: 22rem;
+            height: 3.2rem;
+        }
+    }
+}
